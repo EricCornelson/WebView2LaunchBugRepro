@@ -22,7 +22,7 @@
         </Grid.ColumnDefinitions>
 
         <controls:WebView2 x:Name="MyWebView"  Grid.Row="1" Grid.ColumnSpan="2"
-        Source="http://localhost:3000/" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+        Source="https://bing.com/" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
 
     </Grid>
 </Window>
