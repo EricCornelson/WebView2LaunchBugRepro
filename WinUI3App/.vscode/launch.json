@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Hello debug world",
+            "type": "msedge",
+            "port": 9222, // The port value is optional, and the default value is 9222.
+            "request": "launch",
+            "runtimeExecutable": "C:/Users/aerie/source/repos/WinUI3App/WinUI3App/bin/x86/Debug/net6.0-windows10.0.19041.0/win10-x86/WinUI3App.exe",
+            
+            "useWebView": true,
+            // The following two lines set up source path mapping, where `url` is the start page
+            // of your app, and `webRoot` is the top level directory with all your code files.
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}/path/to/your/assets"
+        }
+    ]
+}
